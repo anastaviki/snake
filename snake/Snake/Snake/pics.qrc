@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rsc/block.png</file>
+        <file>rsc/map_1.txt</file>
+        <file>rsc/apple.png</file>
+        <file>rsc/dot.png</file>
+        <file>rsc/head.png</file>
+        <file>rsc/score.txt</file>
+        <file>rsc/map_2.txt</file>
+        <file>rsc/map_3.txt</file>
+        <file>rsc/map_4.txt</file>
+        <file>rsc/map_5.txt</file>
+    </qresource>
+</RCC>
