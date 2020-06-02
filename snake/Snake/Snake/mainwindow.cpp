@@ -38,14 +38,14 @@ MainWindow::MainWindow(QWidget *parent) ://draw main window
     flash = new QTimer(this);
     timer->start(6);
     flash->start(200);
-    QString text = QInputDialog::getText(this, tr("Ввод теста"),
+    QString text = QInputDialog::getText(this, tr("Name"),
                             tr("Name"), QLineEdit::Normal,
                             tr("Your name"), &ok);
 
     if (ok && !text.isEmpty())
          name=text;
-    QString text2 = QInputDialog::getText(this, tr("Ввод теста"),
-                            tr("Map number"), QLineEdit::Normal,
+    QString text2 = QInputDialog::getText(this, tr("Map"),
+                            tr("Map number from 1 to 5, default:1"), QLineEdit::Normal,
                             tr("Map number"), &ok);
 
     if (ok && !text2.isEmpty())
